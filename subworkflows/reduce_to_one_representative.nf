@@ -1,0 +1,40 @@
+include {
+    CREATE_DB;
+    CREATE_SUBFOLDER;
+    COMPUTE_SIMILARITY;
+    CREATE_SIMILARITY_OUTPUT;
+    CLUSTER_DB;
+    CREATE_CLUSTERING_OUTPUT;
+    CREATE_FASTA_REPRESENTATIVES;
+    FROM_DB_TO_FASTA
+} from "../module/mmseqs"
+
+include {
+    JOIN_SEQUENCES as JOIN_REPRESENTATIVES;
+    ADAPT_FASTA;
+} from "../module/utils"
+
+workflow REDUCE_TO_ONE_REPRESENTATIVE {
+    take:
+        distance_as_key_fastas_as_values
+    main:
+        CREATE_DB(distance_as_key_fastas_as_values)
+        COMPUTE_SIMILARITY(CREATE_DB.out)
+        CREATE_SIMILARITY_OUTPUT(COMPUTE_SIMILARITY.out)
+        CLUSTER_DB(CREATE_DB.out, 1)
+        CREATE_CLUSTERING_OUTPUT(CLUSTER_DB.out)
+        CREATE_FASTA_REPRESENTATIVES(CLUSTER_DB.out)
+        FROM_DB_TO_FASTA(CREATE_FASTA_REPRESENTATIVES.out)
+        // Collect all Fastas
+        ALL_FASTAS = FROM_DB_TO_FASTA.out.groupTuple()
+        JOIN_REPRESENTATIVES(ALL_FASTAS)
+        ADAPT_FASTA(JOIN_REPRESENTATIVES.out)
+    emit: 
+        ADAPT_FASTA.out
+     publish:
+        CREATE_CLUSTERING_OUTPUT.out >> "REDUCE_TO_ONE/CLUSTERING_OUTPUT"
+        CREATE_SIMILARITY_OUTPUT.out >> "REDUCE_TO_ONE/SIMILARITY_OUTPUT"
+        FROM_DB_TO_FASTA.out >> "REDUCE_TO_ONE/SINGLE_FASTAS"
+        ADAPT_FASTA.out >> "REDUCE_TO_ONE"
+
+}

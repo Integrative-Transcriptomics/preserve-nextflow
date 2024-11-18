@@ -1,0 +1,159 @@
+query	target	fident	alnlen	mismatch	gapopen	qstart	qend	tstart	tend	evalue	bits	prob	lddt	alntmscore	geneID	Organism (MALDI)
+A0A0H2WWK3_FhuD1.pdb	EBNGDL_02715.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.129	308	220	18	22	301	38	325	2.807e-10	275	1.0	0.5641	0.674	EBNGDL	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	ELNLNF_02660.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.174	309	219	16	18	301	26	323	3.897e-18	535	1.0	0.6594	0.7709	ELNLNF	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	ELNLNF_02260.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.214	322	196	15	5	299	4	295	1.656e-16	455	1.0	0.6272	0.6998	ELNLNF	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	EENFEF_08770.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.147	353	216	21	15	299	1	336	2.047e-11	287	1.0	0.5482	0.6259	EENFEF	Corynebacterium tuberculostearicum
+A0A0H2WWK3_FhuD1.pdb	EADCIP_08955.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.136	300	211	18	30	301	46	325	6.459e-10	263	1.0	0.5518	0.6719	EADCIP	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	EADCIP_07695.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.183	316	203	14	10	297	1	289	3.247e-15	427	1.0	0.6184	0.7276	EADCIP	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DPLBDI_11235.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.189	322	223	16	10	302	1	313	1.443e-17	495	1.0	0.6288	0.7335	DPLBDI	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	DPLBDI_07580.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.167	317	225	12	15	299	1	310	5.151e-19	579	1.0	0.6906	0.7896	DPLBDI	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	DPLBDI_06710.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.127	297	217	18	30	301	53	332	4.797e-10	276	1.0	0.5752	0.6917	DPLBDI	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	ELNLNF_05885.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.118	362	235	21	5	301	1	343	1.432e-11	295	1.0	0.5629	0.6262	ELNLNF	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	DPLBDI_03885.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.161	334	227	18	10	301	1	323	3.897e-18	528	1.0	0.6479	0.7647	DPLBDI	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	DMHACI_04640.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.23	317	203	18	10	300	1	302	1.873e-19	547	1.0	0.6297	0.7403	DMHACI	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DMHACI_04635.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.193	321	223	15	10	302	1	313	1.072e-17	497	1.0	0.6252	0.7346	DMHACI	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DMHACI_03295.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.182	318	202	16	10	297	1	290	6.632e-15	415	1.0	0.6159	0.7167	DMHACI	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DMHACI_02100.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.129	308	220	18	22	301	38	325	4.797e-10	270	1.0	0.5641	0.6752	DMHACI	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DKJGFH_01530.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.198	277	188	13	49	297	20	290	1.791e-15	446	1.0	0.6188	0.7658	DKJGFH	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DJLMNB_08185.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.128	357	226	20	10	301	1	337	9.441e-12	296	1.0	0.5543	0.6243	DJLMNB	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DIGAOD_11675.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.182	318	201	15	10	297	1	289	1.385e-16	466	1.0	0.6246	0.7311	DIGAOD	Corynebacterium tuberculostearicum
+A0A0H2WWK3_FhuD1.pdb	DIGAOD_04055.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.146	361	212	21	10	299	1	336	5.629e-11	276	1.0	0.5528	0.6139	DIGAOD	Corynebacterium tuberculostearicum
+A0A0H2WWK3_FhuD1.pdb	DMHACI_10795.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.133	359	223	21	10	301	1	338	6.224e-12	300	1.0	0.5577	0.6199	DMHACI	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DGLHAL_08105.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.121	362	234	21	5	301	1	343	1.817e-11	294	1.0	0.5683	0.6276	DGLHAL	Corynebacterium propinquum 
+A0A0H2WWK3_FhuD1.pdb	GANKKB_05830.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.183	321	226	17	10	302	1	313	8.448e-18	500	1.0	0.623	0.7372	GANKKB	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	GFDHOH_01900.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.193	321	223	15	10	302	1	313	9.515e-18	504	1.0	0.6356	0.7392	GFDHOH	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	R3O68_00555_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.134	363	227	19	6	299	1	345	4.012e-10	278	1.0	0.5887	0.6788	R3O68	Corynebacterium simulans
+A0A0H2WWK3_FhuD1.pdb	R3O64_10360_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.129	371	232	20	1	299	25	376	4.622e-12	299	1.0	0.5622	0.599	R3O64	Corynebacterium hesseae
+A0A0H2WWK3_FhuD1.pdb	R3O64_03720_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.232	335	213	17	1	300	7	332	1.142e-20	595	1.0	0.6528	0.7549	R3O64	Corynebacterium hesseae
+A0A0H2WWK3_FhuD1.pdb	R3O64_03630_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.141	368	229	19	1	301	1	348	2.348e-10	282	1.0	0.5877	0.67	R3O64	Corynebacterium hesseae
+A0A0H2WWK3_FhuD1.pdb	PJGDJP_14580_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.971	285	8	0	18	302	1	285	8.223e-58	2240	1.0	0.975	0.9853	PJGDJP	StaphAureus
+A0A0H2WWK3_FhuD1.pdb	OEHLIH_00205_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	1.0	286	0	0	18	303	1	286	8.409999999999999e-60	2343	1.0	0.9867	0.997	OEHLIH	StaphAureus
+A0A0H2WWK3_FhuD1.pdb	NOIPPC_06380.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.184	319	201	16	9	297	1	290	1.438e-14	406	1.0	0.6144	0.7163	NOIPPC	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	MOCMEH_07600.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.242	317	200	19	10	302	1	301	9.731000000000001e-20	559	1.0	0.6329	0.7475	MOCMEH	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	GANKKB_09745.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.169	319	222	12	15	299	1	310	4.06e-19	579	1.0	0.6915	0.7811	GANKKB	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	MNOHAO_10070.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.14	349	225	18	14	301	1	335	4.622e-12	311	1.0	0.5648	0.6445	MNOHAO	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	MEBDLG_08060.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.174	321	206	14	5	297	1	290	2.272e-15	436	1.0	0.6304	0.7276	MEBDLG	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	MBPADP_12130.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.138	355	219	18	14	301	1	335	1.492e-12	314	1.0	0.5599	0.6165	MBPADP	Corynebacterium accolens 
+A0A0H2WWK3_FhuD1.pdb	LDBFOG_02050.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.175	319	218	12	17	299	1	310	2.727e-18	557	1.0	0.6929	0.7821	LDBFOG	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	LDBFOG_01110.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.116	310	223	19	25	303	44	333	1.885e-09	247	1.0	0.5376	0.6593	LDBFOG	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	KLAFBC_00780.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.131	296	217	18	30	301	54	333	3.562e-10	281	1.0	0.5799	0.695	KLAFBC	Corynebacterium propinquum
+A0A0H2WWK3_FhuD1.pdb	KHLIOM_01810.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.184	319	199	16	10	297	1	289	5.78e-16	439	1.0	0.6099	0.7133	KHLIOM	Corynebacterium tuberculostearicum
+A0A0H2WWK3_FhuD1.pdb	JJDFFK_10485.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.14	306	219	18	22	301	38	325	1.674e-09	254	1.0	0.5592	0.6681	JJDFFK	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	IMAJGL_08695.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.184	319	199	16	10	297	1	289	3.059e-15	420	1.0	0.607	0.713	IMAJGL	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	MNOHAO_02605.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.176	317	204	14	10	297	1	289	2.017e-15	435	1.0	0.6261	0.7261	MNOHAO	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DGLHAL_03720.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.173	317	223	11	15	299	1	310	6.937e-19	577	1.0	0.6923	0.7923	DGLHAL	Corynebacterium propinquum 
+A0A0H2WWK3_FhuD1.pdb	R3O68_09590_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.153	372	228	18	1	300	13	369	8.895e-12	305	1.0	0.5801	0.6302	R3O68	Corynebacterium simulans
+A0A0H2WWK3_FhuD1.pdb	CEKJEL_08775.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.13	307	221	16	22	301	45	332	3.162e-10	274	1.0	0.5687	0.6703	CEKJEL	Not identified species
+A0A0H2WWK3_FhuD1.pdb	AEDBAN_10945.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.146	356	217	21	10	301	1	333	4.709e-11	283	1.0	0.5554	0.6349	AEDBAN	Corynebacterium tuberculostearicum
+A0A0H2WWK3_FhuD1.pdb	CEOOGB_10395.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.129	308	220	18	22	301	38	325	3.162e-10	274	1.0	0.5648	0.6761	CEOOGB	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	CEOOGB_01790.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.128	359	224	21	10	301	1	337	1.349e-11	291	1.0	0.5486	0.6226	CEOOGB	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DCEPIK_05035.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.119	360	234	20	7	301	1	342	2.447e-11	291	1.0	0.5698	0.6258	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WWK3_FhuD1.pdb	DCEPIK_08265.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.178	308	216	17	20	301	27	323	4.136e-18	531	1.0	0.6545	0.7687	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WWK3_FhuD1.pdb	DCEPIK_11390.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.132	294	215	18	30	299	54	331	7.722e-10	266	1.0	0.5597	0.6851	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WWK3_FhuD1.pdb	CJOKIF_06340.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.148	357	222	21	7	301	1	337	6.606e-12	303	1.0	0.559	0.6328	CJOKIF	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	CJOKIF_00390.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.235	319	203	18	10	302	1	304	1.033e-19	560	1.0	0.638	0.7472	CJOKIF	Corynebacterium accolens
+A0A0H2WWK3_FhuD1.pdb	DCEPIK_09030.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.194	324	206	14	5	302	1	295	3.003e-16	454	1.0	0.6376	0.7054	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WWK3_FhuD1.pdb	CEKJEL_01945.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.14	362	217	22	10	301	1	338	1.324e-12	313	1.0	0.5587	0.6106	CEKJEL	Not identified species
+A0A0H2WWK3_FhuD1.pdb	AEDBAN_03745.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.134	305	222	17	22	301	38	325	2.254e-09	257	1.0	0.573	0.6806	AEDBAN	Corynebacterium tuberculostearicum
+A0A0H2WYC5_sstD.pdb	IDKMNN_05325.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.224	334	220	16	19	341	1	306	7.457e-21	635	1.0	0.6665	0.7657	IDKMNN	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	CEOOGB_07680.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.224	334	220	16	19	341	1	306	1.484e-20	624	1.0	0.6634	0.7655	CEOOGB	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	KLAFBC_04000.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.232	335	219	14	18	341	14	321	1.815e-23	726	1.0	0.698	0.7647	KLAFBC	Corynebacterium propinquum
+A0A0H2WYC5_sstD.pdb	EBNGDL_00035.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.223	335	219	16	19	341	1	306	3.97e-21	635	1.0	0.6558	0.7599	EBNGDL	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	PJIFDM_07525.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.253	332	220	12	13	340	1	308	5.553000000000001e-26	818	1.0	0.6949	0.805	PJIFDM	Corynebacterium pseudodiphtheriticum 
+A0A0H2WYC5_sstD.pdb	MOCMEH_07700.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.217	335	221	16	19	341	1	306	7.897e-21	628	1.0	0.6584	0.7607	MOCMEH	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	KJDHGP_04450_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.996	324	1	0	19	342	1	324	4.5020000000000004e-63	2544	1.0	0.9856	0.9833	KJDHGP	StaphAureus
+A0A0H2WYC5_sstD.pdb	GANKKB_07590.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.23	343	226	14	10	341	6	321	1.618e-23	723	1.0	0.7049	0.7493	GANKKB	Corynebacterium propinquum
+A0A0H2WYC5_sstD.pdb	PJIFDM_10300.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.231	337	219	15	17	341	13	321	1.714e-23	722	1.0	0.6903	0.7634	PJIFDM	Corynebacterium pseudodiphtheriticum 
+A0A0H2WYC5_sstD.pdb	DCEPIK_01175.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.151	349	224	21	21	341	2	306	6.962e-14	381	1.0	0.5731	0.6842	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WYC5_sstD.pdb	DMHACI_04740.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.22	335	220	16	19	341	1	306	8.363e-21	624	1.0	0.6544	0.7579	DMHACI	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	R3O68_03925_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.223	354	237	17	1	341	5	333	3.1879999999999996e-22	644	1.0	0.6644	0.7009	R3O68	Corynebacterium simulans
+A0A0H2WYC5_sstD.pdb	DEENCE_05290.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.222	333	219	15	21	341	2	306	1.415e-21	653	1.0	0.6625	0.764	DEENCE	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	DGLHAL_09775.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.176	335	209	19	28	341	2	290	6.639e-15	411	1.0	0.5804	0.6918	DGLHAL	Corynebacterium propinquum 
+A0A0H2WYC5_sstD.pdb	CGIHNC_04960_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.975	324	8	0	19	342	1	324	2.984e-62	2510	1.0	0.9826	0.9846	CGIHNC	StaphAureus
+A0A0H2WYC5_sstD.pdb	PJGDJP_12180_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.143	293	195	14	19	306	1	242	3.61e-23	625	1.0	0.5433	0.7474	PJGDJP	StaphAureus
+A0A0H2WYC5_sstD.pdb	JNHCPM_06095_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.996	324	1	0	19	342	1	324	1.004e-62	2529	1.0	0.9846	0.9831	JNHCPM	StaphAureus
+A0A0H2WYC5_sstD.pdb	MNOHAO_04270.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.208	335	224	16	19	341	1	306	7.042e-21	629	1.0	0.6566	0.7608	MNOHAO	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	R3O64_03860_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.228	355	231	18	1	341	13	338	1.587e-21	632	1.0	0.6789	0.7014	R3O64	Corynebacterium hesseae
+A0A0H2WYC5_sstD.pdb	MKCKKD_06955.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.224	334	220	16	19	341	1	306	4.715e-21	641	1.0	0.6644	0.7698	MKCKKD	Corynebacterium accolens
+A0A0H2WYC5_sstD.pdb	CEKJEL_08510.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.238	336	216	18	17	341	4	310	1.866e-20	612	1.0	0.65	0.7561	CEKJEL	Not identified species
+A0A0H2WYC5_sstD.pdb	BGIKGC_05325_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	1.0	324	0	0	19	342	1	324	6.724e-63	2532	1.0	0.9851	0.9797	BGIKGC	StaphAureus
+A0A0H2WZD1_FhuD2.pdb	EADCIP_06325.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.212	316	213	13	17	302	7	316	1.982e-18	518	1.0	0.6196	0.7232	EADCIP	Corynebacterium accolens
+A0A0H2WZD1_FhuD2.pdb	DCEPIK_11310.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.156	306	208	18	24	298	44	330	9.832e-12	306	1.0	0.5492	0.6571	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WZD1_FhuD2.pdb	GOALGM_01135_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.996	285	1	0	18	302	1	285	4.8710000000000005e-55	2146	1.0	0.9589	0.9819	GOALGM	StaphAureus
+A0A0H2WZD1_FhuD2.pdb	CGIHNC_10565_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	1.0	285	0	0	18	302	1	285	1.399e-54	2128	1.0	0.959	0.9812	CGIHNC	StaphAureus
+A0A0H2WZD1_FhuD2.pdb	PJGDJP_17745_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.996	285	1	0	18	302	1	285	8.754e-55	2136	1.0	0.9584	0.9824	PJGDJP	StaphAureus
+A0A0H2WZK8_HtsA.pdb	DEENCE_08375.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.182	307	198	19	38	323	47	321	3.263e-12	341	1.0	0.5595	0.6787	DEENCE	Corynebacterium accolens
+A0A0H2WZK8_HtsA.pdb	KJDHGP_02890_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.21	313	197	14	25	327	1	273	7.685e-16	466	1.0	0.5819	0.758	KJDHGP	StaphAureus
+A0A0H2WZK8_HtsA.pdb	GANKKB_03480.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.16	312	224	11	26	320	1	291	4.869e-14	406	1.0	0.5804	0.718	GANKKB	Corynebacterium propinquum
+A0A0H2WZK8_HtsA.pdb	KJDHGP_05090_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.245	314	190	15	22	325	1	277	1.587e-14	445	1.0	0.6079	0.7752	KJDHGP	StaphAureus
+A0A0H2WZK8_HtsA.pdb	CEOOGB_01065.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.253	308	179	10	23	323	1	264	4.439e-19	614	1.0	0.663	0.8158	CEOOGB	Corynebacterium accolens
+A0A0H2WZK8_HtsA.pdb	OEHLIH_05515_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.495	303	146	2	22	324	1	296	4.487e-36	1335	1.0	0.828	0.9155	OEHLIH	StaphAureus
+A0A0H2WZK8_HtsA.pdb	NOIPPC_02645.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.257	307	178	11	24	323	1	264	3.354e-19	611	1.0	0.6552	0.8057	NOIPPC	Corynebacterium accolens
+A0A0H2WZK8_HtsA.pdb	MBPADP_10425.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.254	307	179	11	24	323	1	264	6.952e-19	601	1.0	0.6552	0.8048	MBPADP	Corynebacterium accolens 
+A0A0H2WZK8_HtsA.pdb	CCDJGA_00955.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.258	306	180	11	23	323	1	264	6.952e-19	611	1.0	0.6687	0.8163	CCDJGA	Corynebacterium accolens
+A0A0H2WZK8_HtsA.pdb	MOCMEH_01990.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.188	355	224	20	18	322	1	341	5.716e-12	317	1.0	0.5545	0.6138	MOCMEH	Corynebacterium accolens
+A0A0H2WZK8_HtsA.pdb	MOCMEH_02725.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.253	308	180	11	22	323	1	264	6.572e-19	604	1.0	0.6578	0.8077	MOCMEH	Corynebacterium accolens
+A0A0H2WZK8_HtsA.pdb	BGIKGC_11210_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.245	314	190	15	22	325	1	277	1.199e-14	451	1.0	0.6151	0.7737	BGIKGC	StaphAureus
+A0A0H2WZK8_HtsA.pdb	KJDHGP_03365_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.491	305	145	3	22	323	1	298	9.300000000000001e-36	1307	1.0	0.8145	0.9077	KJDHGP	StaphAureus
+A0A0H2WZK8_HtsA.pdb	BGIKGC_09525_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.491	305	145	3	22	323	1	298	1.54e-35	1299	1.0	0.8144	0.9076	BGIKGC	StaphAureus
+A0A0H2WZK8_HtsA.pdb	NCNNAC_00110.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.252	305	182	10	23	323	1	263	3.547e-19	627	1.0	0.6754	0.8274	NCNNAC	Corynebacterium tuberculostearicum 
+A0A0H2WZK8_HtsA.pdb	BGIKGC_01985_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.214	317	191	13	25	327	1	273	8.128e-16	458	1.0	0.5743	0.7441	BGIKGC	StaphAureus
+A0A0H2WZK8_HtsA.pdb	DPLBDI_02275.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.157	312	225	11	26	320	1	291	7.209e-14	402	1.0	0.5819	0.7181	DPLBDI	Corynebacterium propinquum
+A0A0H2WZK8_HtsA.pdb	DPLBDI_03670.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.155	328	222	18	20	324	5	300	2.618e-13	379	1.0	0.5789	0.694	DPLBDI	Corynebacterium propinquum
+A0A0H2WZK8_HtsA.pdb	R3O68_02125_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.197	345	214	16	1	320	6	312	1.993e-15	437	1.0	0.6034	0.6754	R3O68	Corynebacterium simulans
+A0A0H2WZK8_HtsA.pdb	IMAJGL_00195.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.255	309	177	12	23	323	1	264	6.214e-19	601	1.0	0.6544	0.8035	IMAJGL	Corynebacterium accolens
+A0A0H2WZK8_HtsA.pdb	DIGAOD_10330.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.256	304	182	10	24	323	1	264	6.239000000000001e-20	654	1.0	0.6761	0.8352	DIGAOD	Corynebacterium tuberculostearicum
+A0A0H2WZK8_HtsA.pdb	CGIHNC_11090_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.986	306	4	0	22	327	1	306	1.9559999999999997e-53	2109	1.0	0.9241	0.9541	CGIHNC	StaphAureus
+A0A0H2WZK8_HtsA.pdb	R3O68_05280_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.203	349	238	16	1	321	2	338	3.146e-17	518	1.0	0.6511	0.7141	R3O68	Corynebacterium simulans
+A0A0H2WZK8_HtsA.pdb	AEDBAN_10110.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.252	305	182	10	23	323	1	263	1.711e-19	636	1.0	0.6755	0.8234	AEDBAN	Corynebacterium tuberculostearicum
+A0A0H2WZK8_HtsA.pdb	DCEPIK_04725.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.228	315	197	9	14	325	1	272	8.733000000000001e-20	630	1.0	0.6666	0.7969	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WZK8_HtsA.pdb	CGIHNC_05605_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.253	315	186	17	22	325	1	277	1.775e-14	436	1.0	0.5956	0.7631	CGIHNC	StaphAureus
+A0A0H2WZK8_HtsA.pdb	GANKKB_02010.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.148	330	234	17	13	323	1	302	2.475e-13	387	1.0	0.584	0.7143	GANKKB	Corynebacterium propinquum
+A0A0H2WZK8_HtsA.pdb	CGIHNC_03875_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.491	303	147	2	22	324	1	296	1.723e-35	1322	1.0	0.8299	0.9246	CGIHNC	StaphAureus
+A0A0H2WZK8_HtsA.pdb	PJGDJP_12435_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.491	303	147	2	22	324	1	296	4.011e-36	1338	1.0	0.8288	0.9163	PJGDJP	StaphAureus
+A0A0H2WZK8_HtsA.pdb	DGLHAL_11115.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.151	330	233	17	13	323	1	302	1.768e-13	389	1.0	0.5813	0.7124	DGLHAL	Corynebacterium propinquum 
+A0A0H2WZK8_HtsA.pdb	GOALGM_00625_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	1.0	306	0	0	22	327	1	306	3.0629999999999996e-53	2106	1.0	0.9253	0.957	GOALGM	StaphAureus
+A0A0H2WZK8_HtsA.pdb	GOALGM_06180_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.245	314	190	15	22	325	1	277	5.447e-14	430	1.0	0.6098	0.7726	GOALGM	StaphAureus
+A0A0H2WZK8_HtsA.pdb	GOALGM_08555_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.211	317	192	13	25	327	1	273	7.266e-16	460	1.0	0.5758	0.7437	GOALGM	StaphAureus
+A0A0H2WZK8_HtsA.pdb	ECAKDB_01965.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.257	307	178	11	24	323	1	264	2.835e-19	610	1.0	0.6514	0.8039	ECAKDB	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	R3O68_02910_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.226	349	231	16	5	324	1	339	3.706e-18	512	1.0	0.6279	0.7047	R3O68	Corynebacterium simulans
+A0A0H2WZT1_SirA.pdb	R3O64_11615_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.283	374	200	14	2	323	11	368	1.0310000000000001e-26	813	1.0	0.7298	0.7374	R3O64	Corynebacterium hesseae
+A0A0H2WZT1_SirA.pdb	NDLKFA_02330.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.234	320	218	12	21	323	1	310	3.3949999999999995e-22	681	1.0	0.6903	0.7772	NDLKFA	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	OEHLIH_09825_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	1.0	310	0	0	21	330	1	310	8.621999999999999e-59	2272	1.0	0.9518	0.9576	OEHLIH	StaphAureus
+A0A0H2WZT1_SirA.pdb	R3O64_03755_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.234	346	201	14	1	326	2	303	3.843e-19	574	1.0	0.6891	0.7318	R3O64	Corynebacterium hesseae
+A0A0H2WZT1_SirA.pdb	NOIPPC_01870.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.164	353	241	16	21	328	1	344	1.7e-35	862	1.0	0.5539	0.632	NOIPPC	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	R3O64_02860_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.225	350	229	14	1	325	3	335	1.35e-19	546	1.0	0.6405	0.681	R3O64	Corynebacterium hesseae
+A0A0H2WZT1_SirA.pdb	R3O64_01795_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.198	347	219	18	1	322	1	313	1.143e-16	448	1.0	0.6086	0.6535	R3O64	Corynebacterium hesseae
+A0A0H2WZT1_SirA.pdb	NOIPPC_10120.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.269	282	172	12	54	326	26	282	7.282e-19	581	1.0	0.6788	0.7813	NOIPPC	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	BGIKGC_07025_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.996	310	1	0	21	330	1	310	3.2099999999999998e-59	2288	1.0	0.9522	0.9574	BGIKGC	StaphAureus
+A0A0H2WZT1_SirA.pdb	NDLKFA_10975.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.25	279	178	10	54	323	19	275	5.647000000000001e-20	615	1.0	0.6807	0.7843	NDLKFA	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	DGLHAL_03775.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.155	360	250	19	2	328	3	341	5.178e-16	455	1.0	0.6357	0.6949	DGLHAL	Corynebacterium propinquum 
+A0A0H2WZT1_SirA.pdb	CEOOGB_07765.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.214	321	216	15	19	324	1	300	2.874e-19	567	1.0	0.6384	0.7619	CEOOGB	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	MKCKKD_05120.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.333	300	176	9	31	326	39	318	2.0700000000000002e-26	854	1.0	0.7444	0.8151	MKCKKD	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	DGLHAL_07515.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.232	327	220	14	16	325	1	313	2.073e-18	528	1.0	0.6404	0.7173	DGLHAL	Corynebacterium propinquum 
+A0A0H2WZT1_SirA.pdb	DGLHAL_11330.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.22	322	211	15	20	324	24	322	1.845e-18	543	1.0	0.6652	0.7273	DGLHAL	Corynebacterium propinquum 
+A0A0H2WZT1_SirA.pdb	DKJGFH_00125.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.207	323	216	16	19	324	1	300	2.712e-19	564	1.0	0.633	0.758	DKJGFH	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	DKJGFH_00130.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.256	328	206	16	21	325	1	313	5.138e-19	532	1.0	0.6221	0.7052	DKJGFH	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	DCEPIK_08940.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.227	330	216	15	18	325	1	313	1.741e-18	517	1.0	0.6275	0.6962	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WZT1_SirA.pdb	DKJGFH_01825.p01_unrelaxed_rank_001_alphafold2_ptm_model_1_seed_000.pdb	0.344	290	170	8	39	326	47	318	5.44e-27	887	1.0	0.7502	0.8373	DKJGFH	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	DKJGFH_05790.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.163	355	243	18	18	327	1	346	8.462000000000001e-36	871	1.0	0.5586	0.63	DKJGFH	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	DCEPIK_03490.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.243	312	190	11	21	323	1	275	2.2280000000000002e-20	615	1.0	0.6737	0.7643	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WZT1_SirA.pdb	DCEPIK_00725.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.15	353	248	18	2	321	5	338	3.447e-16	457	1.0	0.6354	0.6865	DCEPIK	Corynebacterium pseudodiphtheriticum 
+A0A0H2WZT1_SirA.pdb	DPLBDI_06635.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.158	321	233	16	20	326	36	333	3.175e-33	824	1.0	0.5632	0.6461	DPLBDI	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	CJOKIF_05555.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.247	279	169	11	52	321	15	261	8.861e-18	539	1.0	0.6541	0.7818	CJOKIF	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	DPLBDI_10265.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.233	308	193	11	25	323	2	275	1.01e-19	591	1.0	0.6616	0.7648	DPLBDI	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	CJOKIF_00395.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.245	330	210	15	18	325	1	313	1.55e-18	522	1.0	0.6322	0.7021	CJOKIF	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	EBNGDL_01840.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.335	298	178	8	31	326	39	318	5.561000000000001e-26	845	1.0	0.745	0.8225	EBNGDL	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	CGIHNC_08085_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.993	310	2	0	21	330	1	310	1.0260000000000001e-58	2267	1.0	0.9493	0.9582	CGIHNC	StaphAureus
+A0A0H2WZT1_SirA.pdb	ELNLNF_11615.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.158	321	233	16	20	326	36	333	1.253e-33	834	1.0	0.5634	0.6465	ELNLNF	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	CEOOGB_09405.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.333	300	176	9	31	326	39	318	5.561000000000001e-26	843	1.0	0.7473	0.816	CEOOGB	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	GFDHOH_06625.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.234	328	210	15	21	324	2	312	1.463e-18	527	1.0	0.6241	0.7208	GFDHOH	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	IMAJGL_07265.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.228	320	209	16	21	324	2	299	1.431e-19	573	1.0	0.6318	0.7638	IMAJGL	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	CEOOGB_07770.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.251	330	208	16	18	325	1	313	1.741e-18	520	1.0	0.6293	0.7015	CEOOGB	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	JPCCIG_02105.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.333	300	176	9	31	326	39	318	3.9240000000000005e-26	847	1.0	0.7475	0.8153	JPCCIG	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	KJDHGP_07645_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.996	310	1	0	21	330	1	310	2.0169999999999998e-59	2302	1.0	0.9566	0.9585	KJDHGP	StaphAureus
+A0A0H2WZT1_SirA.pdb	CEKJEL_10570.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.216	324	197	17	21	322	1	289	6.924e-16	439	1.0	0.5996	0.697	CEKJEL	Not identified species
+A0A0H2WZT1_SirA.pdb	LDBFOG_02110.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.142	358	245	16	2	321	5	338	5.816e-16	453	1.0	0.6448	0.6826	LDBFOG	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	LDBFOG_10975.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.24	329	208	16	21	324	1	312	2.328e-18	521	1.0	0.6208	0.7242	LDBFOG	Corynebacterium propinquum
+A0A0H2WZT1_SirA.pdb	MOCMEH_05920.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.333	300	176	9	31	326	39	318	2.1940000000000002e-26	855	1.0	0.7478	0.8152	MOCMEH	Corynebacterium accolens
+A0A0H2WZT1_SirA.pdb	AEDBAN_02610.p01_unrelaxed_rank_001_alphafold2_ptm_model_3_seed_000.pdb	0.198	328	202	17	18	322	1	290	6.164e-16	439	1.0	0.5966	0.6956	AEDBAN	Corynebacterium tuberculostearicum
