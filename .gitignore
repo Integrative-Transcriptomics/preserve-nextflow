@@ -3,3 +3,4 @@ results_all_samples_new_promoterDB_longer/*
 work/*
 .nextflow.log*
 scripts/*
+playground/*
