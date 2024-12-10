@@ -1,10 +1,10 @@
-# lipo-search
-A repository for the Nextflow Pipeline that optimally predicts the structure of Lipoproteins and searches for structural homologs within a set of lipoprotein references. 
+# PRESERVE Nextflor
+A repository for the Nextflow Pipeline that optimally predicts the structure of proteins and searches for structural homologs within a set of references or within the provided set of predicted proteins. . 
 
 # config-file
 
-The lipo-search pipeline works with the following configuration:
-
+The pipeline works with the following configuration:
+```sh
 params {
     input_queries = [path_for_PDB_files]
     input_references = [path_for_reference_files]
@@ -20,4 +20,4 @@ params {
     outputName = [output_name]
 
 }
-
+```
