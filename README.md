@@ -1,4 +1,4 @@
-# PRESERVE Nextflor
+# PRESERVE Nextflow
 A repository for the Nextflow Pipeline that optimally predicts the structure of proteins and searches for structural homologs within a set of references or within the provided set of predicted proteins. . 
 
 # config-file
