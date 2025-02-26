@@ -1,0 +1,93 @@
+#!/usr/bin/env nextflow
+
+/*
+ * Default Parameters
+ */
+// Default input for bakta (1)
+params.input_files_bakta = [
+    "/local_scratch/rack/data/data_corynebacteria/subset/accolens.fna",
+    "/local_scratch/rack/data/data_corynebacteria/subset/propinquum.fna",
+    "/local_scratch/rack/data/data_corynebacteria/subset/pseudodiphtericum.fna",
+    "/local_scratch/rack/data/data_corynebacteria/subset/tuberculosteariucum.fna"
+    ]
+
+// Default input for deepTMHMMM, for testing purposes (2)
+//params.input_file2 = "/local_scratch/rack/playground/deepTMHMM_test/query.fasta"
+
+// Test parameters for the filtering step (3)
+params.protein_filter_include = "TM"
+params.protein_filter_exclude = "SP"
+//params.input_file_faa1 = "/local_scratch/rack/playground/workflow_test/deepTMHMM_results/Haiti-B.fasta.faa"
+//params.input_file_3line1 = "/local_scratch/rack/playground/workflow_test/deepTMHMM_results/biolib_results/predicted_topologies.3line"
+
+// Name for the output of the combination step (4)
+params.combination_name = "combined_fastas_step4.fasta"
+
+// Name for the output of step (8) where we select which proteins structures can be gathered from Uniprot
+params.name_tsv = "proteins_with_ref.tsv"
+params.name_fasta = "proteins_without_ref.fasta"
+
+// Token and Output folder for step (10)
+params.default_token = "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"
+params.esmfold_out = "protein_structures"
+
+//Import Modules
+include {useBakta} from "/local_scratch/rack/playground/bakta_test/bakta_test.nf"
+include {useDeepTMHMM} from "/local_scratch/rack/playground/deepTMHMM_test/deepTMHMM_test.nf"
+include {filterProteins} from "/local_scratch/rack/playground/filter_test/filter_proteins_test.nf"
+include {useMMSeqs2_EasyCluster} from "/local_scratch/rack/playground/mmseqs2_test/mmseqs2_easycluster_test.nf"
+include {useMMSeqs2_EasySearch} from "/local_scratch/rack/playground/mmseqs2_test/mmseqs2_easysearch_test.nf"
+include {combineFiles} from "/local_scratch/rack/playground/filter_test/combine_files_test.nf"
+include {findDBComparisonCandidates} from "/local_scratch/rack/playground/compare_DB_test/compare_DB_test.nf"
+include {clusterDistanceCheck} from "/local_scratch/rack/playground/cluster_similarity_test/cluster_similarity_test.nf"
+include {getStructures} from "/local_scratch/rack/playground/compare_DB_test/compare_DB_test.nf"
+include {useESMFOLD} from "/local_scratch/rack/playground/esmFold_test/esmFold_test.nf"
+
+
+workflow {
+
+    // normal 1-x setup
+    input_channel_bakta = Channel.fromPath(params.input_files_bakta).view() // for (1): Genomes
+    input_channel_filter_inc = Channel.of(params.protein_filter_include) // for (3): Protein type to filter for
+    input_channel_filter_exc = Channel.of(params.protein_filter_exclude) // for (3): Protein type to filter against
+    input_channel_combination_name = Channel.of(params.combination_name) // for (4): Name for the outfile
+    input_channel_name_tsv = Channel.of(params.name_tsv) // for (8): Name for the .tsv outfile
+    input_channel_name_fasta = Channel.of(params.name_fasta) // for (8): Name for the .fasta outfile
+    input_channel_token = Channel.of(params.default_token) // for (10): Token for the esmfold prediction
+    input_channel_esmfold_out = Channel.of(params.esmfold_out) // for (10): Name for the folder that contains the structure predictions
+
+    // skipping 3 - x setup for testing without taking forever.
+    //input_channel_filter = Channel.of([params.input_file_faa1, params.input_file_3line1]) // for (3)
+    //input_channel_jsons = Channel.of(params.input_json)
+
+    // (1) Get the proteins on the genome from bakta
+    useBakta(input_channel_bakta)
+
+    // (2) Determine protein type eg: transmembrane
+    useDeepTMHMM(useBakta.out.faa.flatten().view())
+
+    // (3) Filter the protein list from bakta by protein type from DeepTMHMM
+    filterProteins(useDeepTMHMM.out, input_channel_filter_inc, input_channel_filter_exc)
+
+    // (4) Combine the filtered protein lists
+    combineFiles(input_channel_combination_name, filterProteins.out.collect())
+
+    // (5) Cluster all of the proteins
+    useMMSeqs2_EasyCluster(combineFiles.out)
+
+    // (6) Search the proteins against each other
+    useMMSeqs2_EasySearch(combineFiles.out)
+
+    // (7) Determine candidates for structure prediction
+    clusterDistanceCheck(useMMSeqs2_EasySearch.out, useMMSeqs2_EasyCluster.out.tsv)
+
+    // (8) check what proteins have structures on uniprot and which don't
+    findDBComparisonCandidates(clusterDistanceCheck.out, combineFiles.out, input_channel_name_tsv, input_channel_name_fasta, useBakta.out.json.collect())
+
+    // (9) get structures from uniprot
+    getStructures(findDBComparisonCandidates.out.tsv)
+
+    // (10) predict structures for the other proteins
+    useESMFOLD(findDBComparisonCandidates.out.fasta, input_channel_token, input_channel_esmfold_out)
+
+}
