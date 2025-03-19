@@ -1,64 +1,47 @@
-# Read file names from the Command line arguments, the faa file has to be parsed first, the topologies second, and the third argument should be the string that we search for.
+# Read file names from the Command line arguments, the list of representatives has to be parsed first, the topologies second.
+# The third argument is a string which the filtered line must include, and the fourth is a string to exclude.
 import sys
-name_faa = sys.argv[1]
-name_3line = sys.argv[2]
-filter_string = sys.argv[3]
+name_sequence_file = sys.argv[1] # Test: /local_scratch/rack/playground/workflow_test/deepTMHMM_results/clusterRes_rep_seq.fasta
+name_topology_file = sys.argv[2] # Test: /local_scratch/rack/playground/workflow_test/deepTMHMM_results/biolib_results/predicted_topologies.3line
+include_filter = sys.argv[3] # Test: TM
+exclude_filter = sys.argv[4] # Test: SP
 
-# Read the faa file from the bakta output into python.
-# Lines 2n (0,2,4,6,etc) are the names and ids of the sequences.
-# Lines 2n+1 (1,3,5,etc) are the sequences themselves.
-df_faa = open(name_faa, "r")
-Lines_faa = df_faa.readlines()
-test_faa = Lines_faa[0:6]
-#print(Lines_faa[0:3])
+# read in list of proteins
+protein_seq_list = []
+with open(name_sequence_file, "r") as file:
+    for line in file:
+        protein_seq_list.append(line.strip())
 
-# Read the 3line file from the deepTMHMM output into python.
-# Lines 3n (0,3,6,9,etc) are the ids and classes of the sequences.
-# Lines 3n+1 (1,4,7,etc) are the sequences themselves.
-# Lines 3n+2 (2,5,8,etc) are the sequences themselves.
-df_3line = open(name_3line, "r")
-Lines_3line = df_3line.readlines()
-test_3line = Lines_3line[0:9]
-#print(Lines_3line[0:3])
+# read in list of proteins with topologies
+protein_top_list = []
+with open(name_topology_file, "r") as file:
+    for line in file:
+        protein_top_list.append(line.strip())
 
-# Iterate through a list and check whether a string is contained therein and whether the current index is divisible by 3, if so the index of the line is added to a list.
-# Case Sensitive!
-def search_3line(file, string):
-    filtered_indeces = []
-    for x in file:
-        if (string in x) and (file.index(x) % 3 == 0):
-            filtered_indeces.append(file.index(x))
-    return filtered_indeces
+# filter the list by topology to get the subset of proteins we are interested in
+protein_subset = []
+for line in protein_top_list:
+    if (include_filter in line) and (exclude_filter not in line) and (protein_top_list.index(line) % 3 == 0):
+        protein_subset.append(line)        
 
-# Adapt the indeces from 3line format to faa, because each entry has 3 lines in 3line and only 2 in faa
-def translate_indeces(list):
-    translated_indeces = []
-    for x in list:
-        if x == 0:
-            translated_indeces.append(x)
-        else:
-            translated_indeces.append(x/3*2)
-    return translated_indeces 
+# get the sequence and information of the selected subset from the sequence file:
+return_list = []
+for i in protein_subset:
+    #print(i[1:13])
+    for j in protein_seq_list:
+        if i[1:13] in j:
+            print(j[1:13])
+            id_index = protein_seq_list.index(j)
+            seq_index = id_index + 1
+            return_list.append(protein_seq_list[id_index])
+            return_list.append(protein_seq_list[seq_index])
 
-# Writes a new fasta file containing all lines from the initial file that are in the list and the line directly after.
-def filter_fasta(file, list):
-    new_file = open("filtered_proteins.fasta", "w")
-    for x in file:
-        if file.index(x) in list:
-            new_file.write(x)
-        if file.index(x)-1 in list:
-            new_file.write(x)
+# write the protein subset to a new file
+with open("filtered_cluster_reps.fasta", "w") as outfile:
+    for line in return_list:
+        outfile.write(line + "\n")
 
-    new_file.close
-            
-
-
-
-test_file = ["eins","zwei","drei"]
-test_result1 = search_3line(Lines_3line, filter_string)
-test_result2 = translate_indeces(test_result1)
-#print(test_result2)
-filter_fasta(Lines_faa, test_result2)
-#print(test_faa)
-#print(test_3line)
-#print(name_faa)
+#print(protein_subset)
+print(return_list[0:6])
+print(len(protein_subset))
+print(len(return_list))
